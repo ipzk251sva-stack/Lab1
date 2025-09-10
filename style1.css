@@ -36,13 +36,11 @@ input[type=submit]:hover {
     background-color: rgb(20, 20, 177);
 }
 
-input:focus:invalid,
-textarea:focus:invalid{
+input:focus:invalid{
 	border:solid 3px #F5192F;
 }
 
-input:focus:valid,
-textarea:focus:valid{
+input:focus:valid{
 	border:solid 3px #18E109;
 	background-color:#fff;
 }
@@ -51,4 +49,16 @@ input:invalid:placeholder-shown{
 }
 input:valid:placeholder-shown{
     border: 1px solid #ccc
+}
+.e{
+    color: red;
+    margin-left: -150px;
+}
+
+input:invalid+.e {
+  display: block;
+}
+
+input:valid+.e {
+  display: none;
 }
