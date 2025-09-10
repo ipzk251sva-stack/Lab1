@@ -1,0 +1,20 @@
+input[type=radio]{
+    display:none;
+}
+p{
+    display:none
+}
+label{
+    display:block;
+    color: white;
+    background-color: rgb(95, 87, 87);
+    width:150px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+input:checked+label+p{
+    display:block;
+}
+
+
