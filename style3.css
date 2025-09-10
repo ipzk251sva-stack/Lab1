@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    }
+li {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+ul > li {
+    background-color: #add8e6;
+}
+ul > li > ul > li {
+    background-color: #ffd700;
+}
+ul > li > ul > li > ul > li {
+    background-color: #90ee90;
+}
+li:hover {
+    background-color: #ffb6c1;
+    transform: scale(1.05);
+}
+li:active {
+    background-color: #ffa07a;
+    transform: scale(0.95);
+}
